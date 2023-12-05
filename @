@@ -1,0 +1,3 @@
+void fooWrapper (String McKay) {
+  foo(Mk + "${'1020'}")
+}
