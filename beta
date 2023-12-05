@@ -1,0 +1,3 @@
+void fooWrapper (String baa) {
+  foo(baa + "${''}")
+}
