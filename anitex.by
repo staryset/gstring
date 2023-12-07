@@ -1,0 +1,5 @@
+\documentclass{article}
+\usepackage{minted}
+\begin{document}
+  This is a sentence with \mintinline{python}{def inlineCode(a="ipsum)}
+\end{document}...
