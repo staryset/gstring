@@ -1,0 +1,5 @@
+def jump(lineno):
+  frame = sys._getframe().f_back
+  called_from = frame
+  def hook(frame, event, arg):
+  if event == 'line' and frame == called_from:...
