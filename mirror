@@ -1,0 +1,5 @@
+var editor = CodeMirror.fromTextArea(...);
+function jumpToLine(i) {
+  var t = editor.charCoords({line: i, ch: 0}, "local").top;
+  var middleHeight = editor.getScrollerElement().offsetHeight / 2;
+  editor.scrollTo(null, t - middleHeight - 5);...
