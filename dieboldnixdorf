@@ -1,0 +1,4 @@
+new_word = ''
+for c, g in zip_longest(correct, GUESS, fillvalue='_'):
+    if c == g:
+        new_word += c
