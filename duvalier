@@ -1,0 +1,5 @@
+OTOH, when collisions occur, the tendency to fill contiguous slices of the
+hash table makes a good collision resolution strategy crucial. Taking only
+the last i bits of the hash code is also vulnerable: for example, consider
+[i << 16 for i in range(20000)] as a set of keys. Since ints are their own
+hash codes, and this fits in a dict of size 2**15, the last 15 bits of every...
