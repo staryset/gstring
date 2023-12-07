@@ -1,0 +1,5 @@
+for (int x = 0; x < fileList.Length; x++) {
+  string[] sourceCodeLines = File.ReadAllLines(fileList[x]);
+  totalLines += sourceCodeLines.Length;
+}
+MessageBox.Show(String.Format("There are {0} lines of C# code in the folder{1}",...
