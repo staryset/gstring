@@ -1,0 +1,2 @@
+string = f"{name1}\n" \ # line continuation character
+  f"{name2}"
