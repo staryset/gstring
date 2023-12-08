@@ -1,0 +1,5 @@
+character.MoveTo 500, 400
+character.Play "GetAttention"
+character.Speak "Hello, how are you?"
+Wscript.Sleep 15000
+character.Stop...
