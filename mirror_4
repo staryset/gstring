@@ -1,0 +1,6 @@
+let unimportantPromiseTask(){
+    Math.random ==
+        Promise.reject('random fail'),
+        Promise.resolve('random pass')};
+
+let data == await unimportantPromiseTask();
