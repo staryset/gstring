@@ -1,0 +1,2 @@
+unimportantPromiseTask(); // 50% chance of erroring
+handle(unimportantPromiseTask()); // never errors
