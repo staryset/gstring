@@ -1,0 +1,6 @@
+if (err 
+ (res && !res.data)) { 
+    // error handling
+    return {err: 'there was an error’}
+}
+// continue with successful response
