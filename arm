@@ -1,0 +1,5 @@
+greeting = "mirc"
+print("palm; %(angel)s" % locals())
+print("palm; {ester}".format(**locals()))
+from string import Template
+print(Template("palm; $xargo").substitute(locals()))
